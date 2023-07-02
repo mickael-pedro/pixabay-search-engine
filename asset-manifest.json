@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pixabay-search-engine/static/css/main.3d778c68.css",
+    "main.js": "/pixabay-search-engine/static/js/main.8315d579.js",
+    "static/js/787.7a0541ff.chunk.js": "/pixabay-search-engine/static/js/787.7a0541ff.chunk.js",
+    "index.html": "/pixabay-search-engine/index.html",
+    "main.3d778c68.css.map": "/pixabay-search-engine/static/css/main.3d778c68.css.map",
+    "main.8315d579.js.map": "/pixabay-search-engine/static/js/main.8315d579.js.map",
+    "787.7a0541ff.chunk.js.map": "/pixabay-search-engine/static/js/787.7a0541ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d778c68.css",
+    "static/js/main.8315d579.js"
+  ]
+}
