@@ -31,7 +31,8 @@ function App() {
 
 
   return (
-    <div>
+    <div class="container min-h-screen mb-5 mx-auto bg-gray-200 outline outline-gray-400 p-5">
+      <h1 class="text-4xl font-extrabold">Pixabay Images Search</h1>
       <SearchBar value={field} onChange={handleFieldChange}/>
       <ImagesResult images={images}/>
     </div>
