@@ -15,10 +15,10 @@ function App() {
     const fetchImages = () => {
       if (field !== "") {
         (async () => {
-            await axios.get(`https://pixabay.com/api/?key=17555297-46a99d3dc7abf78679ec9e640&q=${field}&image_type=photo&per_page=6&pretty=true/`).then(res => {
+            const query = field.replace(/ /g, '+');
+            await axios.get(`https://pixabay.com/api/?key=17555297-46a99d3dc7abf78679ec9e640&q=${query}&image_type=photo&per_page=6&pretty=true/`).then(res => {
               setImages(res.data.hits);
             });
-            console.log(field);
         })();
       } else {
         setImages(null);
